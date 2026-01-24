@@ -1,0 +1,273 @@
+/* ============================================
+   ROADMAP SECTION STYLES
+   ============================================ */
+
+.roadmap {
+  position: relative;
+  overflow: hidden;
+  background: var(--black-medium);
+}
+
+/* Background */
+.roadmap-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.roadmap-glow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  height: 80%;
+  background: radial-gradient(
+    circle,
+    rgba(212, 175, 55, 0.05) 0%,
+    transparent 60%
+  );
+}
+
+/* Label with icon */
+.roadmap .label {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.roadmap .label svg {
+  color: var(--gold);
+}
+
+/* Timeline */
+.timeline {
+  position: relative;
+  max-width: 900px;
+  margin: 60px auto 0;
+  padding: 20px 0;
+}
+
+.timeline-line {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    var(--gold) 10%,
+    var(--gold) 90%,
+    transparent
+  );
+  transform: translateX(-50%);
+}
+
+/* Timeline Item */
+.timeline-item {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 30px;
+  margin-bottom: 60px;
+  align-items: center;
+}
+
+.timeline-item:last-child {
+  margin-bottom: 0;
+}
+
+/* Date */
+.timeline-date {
+  text-align: right;
+  padding-right: 20px;
+}
+
+.date-text {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--gold);
+  line-height: 1;
+}
+
+.date-year {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin-top: 5px;
+}
+
+/* Marker */
+.timeline-marker {
+  position: relative;
+  z-index: 2;
+}
+
+.marker-dot {
+  width: 60px;
+  height: 60px;
+  background: var(--black-soft);
+  border: 3px solid var(--gold);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 30px rgba(212, 175, 55, 0.3);
+  transition: var(--transition-smooth);
+}
+
+.marker-dot svg {
+  color: var(--gold);
+}
+
+.timeline-item:hover .marker-dot {
+  background: var(--gold);
+  transform: scale(1.1);
+}
+
+.timeline-item:hover .marker-dot svg {
+  color: var(--black);
+}
+
+/* Content */
+.timeline-content {
+  padding-left: 20px;
+}
+
+.timeline-card {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(212, 175, 55, 0.15);
+  border-radius: 16px;
+  padding: 25px 30px;
+  transition: var(--transition-smooth);
+}
+
+.timeline-item:hover .timeline-card {
+  border-color: var(--gold);
+  transform: translateY(-5px);
+  box-shadow: 0 10px 40px rgba(212, 175, 55, 0.1);
+}
+
+.timeline-card h3 {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: var(--text-white);
+}
+
+.timeline-card p {
+  font-size: 1rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+/* CTA Banner */
+.roadmap-cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 60px;
+  padding: 30px 40px;
+  background: rgba(212, 175, 55, 0.05);
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  border-radius: 20px;
+}
+
+.roadmap-cta p {
+  font-size: 1.1rem;
+  color: var(--text-light);
+  margin: 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .timeline {
+    padding-left: 60px;
+  }
+
+  .timeline-line {
+    left: 30px;
+  }
+
+  .timeline-item {
+    grid-template-columns: auto 1fr;
+    gap: 20px;
+  }
+
+  .timeline-date {
+    position: absolute;
+    left: 0;
+    text-align: left;
+    padding-right: 0;
+    top: -35px;
+  }
+
+  .date-text {
+    font-size: 1.2rem;
+  }
+
+  .date-year {
+    display: inline;
+    margin-left: 5px;
+  }
+
+  .timeline-marker {
+    order: -1;
+  }
+
+  .marker-dot {
+    width: 50px;
+    height: 50px;
+  }
+
+  .timeline-content {
+    padding-left: 0;
+  }
+
+  .timeline-item {
+    position: relative;
+    margin-bottom: 80px;
+  }
+
+  .roadmap-cta {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    padding: 25px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .timeline {
+    padding-left: 50px;
+  }
+
+  .timeline-line {
+    left: 25px;
+  }
+
+  .marker-dot {
+    width: 40px;
+    height: 40px;
+  }
+
+  .marker-dot svg {
+    width: 18px;
+    height: 18px;
+  }
+
+  .timeline-card {
+    padding: 20px;
+  }
+
+  .timeline-card h3 {
+    font-size: 1.1rem;
+  }
+}

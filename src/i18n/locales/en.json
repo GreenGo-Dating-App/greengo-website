@@ -1,0 +1,264 @@
+{
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "howItWorks": "How It Works",
+    "pricing": "Pricing",
+    "testimonials": "Testimonials",
+    "earlyAccess": "Early Access"
+  },
+  "hero": {
+    "badge": "Launching Q1 2026",
+    "title1": "Learn.",
+    "title2": "Converse.",
+    "title3": "Love.",
+    "subtitle": "Connect with extraordinary people worldwide. Break language barriers and discover meaningful relationships that transcend borders.",
+    "cta": "Get Early Access",
+    "explore": "Explore Features",
+    "discount": "Early Bird Discount",
+    "countries": "Countries Supported",
+    "translation": "AI Translation",
+    "scroll": "Scroll to explore"
+  },
+  "features": {
+    "label": "Why Choose GreenGo",
+    "title": "Premium Features for",
+    "titleHighlight": " Premium Connections",
+    "subtitle": "Experience dating reimagined with cutting-edge technology and unparalleled service.",
+    "global": {
+      "title": "Global Connections",
+      "description": "Connect with extraordinary individuals from over 100 countries. Expand your horizons and discover love without borders."
+    },
+    "translation": {
+      "title": "AI Translation",
+      "description": "Break language barriers with our real-time AI-powered translation. Communicate seamlessly in any language."
+    },
+    "verified": {
+      "title": "Verified Profiles",
+      "description": "Every profile undergoes strict verification. Connect with confidence knowing everyone is who they claim to be."
+    },
+    "matching": {
+      "title": "Smart Matching",
+      "description": "Our sophisticated algorithm learns your preferences to deliver meaningful connections that truly matter."
+    },
+    "events": {
+      "title": "Exclusive Events",
+      "description": "Access members-only virtual and in-person events. Network with like-minded individuals globally."
+    },
+    "coaching": {
+      "title": "Relationship Coaching",
+      "description": "Premium members get access to certified relationship coaches for personalized guidance."
+    },
+    "instant": {
+      "title": "Instant Connect",
+      "description": "Skip the endless swiping. Our priority matching puts you in front of compatible profiles instantly."
+    },
+    "vip": {
+      "title": "VIP Treatment",
+      "description": "Diamond members enjoy concierge service, priority support, and exclusive perks."
+    }
+  },
+  "howItWorks": {
+    "label": "Simple Process",
+    "title": "Your Journey to",
+    "titleHighlight": " Love Starts Here",
+    "subtitle": "Four simple steps to finding your perfect international connection.",
+    "step1": {
+      "title": "Create Your Profile",
+      "description": "Sign up and craft your unique profile. Add photos, interests, and what you're looking for in a connection."
+    },
+    "step2": {
+      "title": "Discover Matches",
+      "description": "Our AI algorithm analyzes your preferences and presents you with highly compatible matches worldwide."
+    },
+    "step3": {
+      "title": "Start Conversations",
+      "description": "Break the ice with our intelligent conversation starters. Language barriers? Our AI handles translation instantly."
+    },
+    "step4": {
+      "title": "Build Connections",
+      "description": "Take your conversations deeper. Plan virtual dates, join exclusive events, and nurture meaningful relationships."
+    }
+  },
+  "pricing": {
+    "label": "Pricing Plans",
+    "title": "Choose Your",
+    "titleHighlight": " Perfect Plan",
+    "subtitle": "Secure your early access! Special launch pricing available now.",
+    "getStarted": "Subscribe Now",
+    "mostPopular": "Most Popular",
+    "silver": {
+      "name": "Silver",
+      "description": "Perfect for getting started",
+      "period": "1 month",
+      "feature1": "Basic profile visibility",
+      "feature2": "Standard messaging (50/day)",
+      "feature3": "View profiles worldwide",
+      "feature4": "Basic matching algorithm",
+      "feature5": "Email support"
+    },
+    "gold": {
+      "name": "Gold",
+      "description": "Best value",
+      "period": "6 months",
+      "feature1": "Enhanced profile visibility",
+      "feature2": "Unlimited messaging",
+      "feature3": "AI translation (100/day)",
+      "feature4": "Advanced matching filters",
+      "feature5": "See who viewed your profile",
+      "feature6": "Priority support",
+      "feature7": "Read receipts"
+    },
+    "platinum": {
+      "name": "Platinum",
+      "description": "For serious connections",
+      "period": "1 year",
+      "feature1": "Maximum profile visibility",
+      "feature2": "Unlimited AI translation",
+      "feature3": "Profile boost (3x/month)",
+      "feature4": "Exclusive events access",
+      "feature5": "Video chat feature",
+      "feature6": "Relationship coaching",
+      "feature7": "VIP support",
+      "feature8": "Incognito browsing"
+    },
+    "earlyBird": {
+      "title": "VIP Early Access",
+      "description": "Silver, Gold and Platinum members get",
+      "discount": "exclusive early access",
+      "period": "starting March 1st!",
+      "cta": "Join Now"
+    }
+  },
+  "roadmap": {
+    "label": "Important Dates",
+    "title": "Mark Your",
+    "titleHighlight": " Calendar",
+    "subtitle": "Don't miss these key milestones on your journey to finding love with GreenGo.",
+    "preRegistration": {
+      "title": "Pre-Registration",
+      "description": "Pre-registration through the app will be available! Be among the first to secure your spot."
+    },
+    "vipAccess": {
+      "title": "VIP Early Access",
+      "description": "Silver, Gold and Platinum members get exclusive early access to the platform!"
+    },
+    "officialLaunch": {
+      "title": "Official Launch",
+      "description": "The app will be open for EVERYONE! Join the global community of GreenGos."
+    },
+    "cta": "Secure your VIP access now and be first in line!",
+    "ctaButton": "Get VIP Access"
+  },
+  "testimonials": {
+    "label": "Success Stories",
+    "title": "Love Knows No",
+    "titleHighlight": " Borders",
+    "subtitle": "Join thousands who found their perfect international match with GreenGo.",
+    "stats": {
+      "couples": "Happy Couples",
+      "satisfaction": "Satisfaction Rate",
+      "rating": "App Store Rating",
+      "countries": "Countries"
+    }
+  },
+  "contact": {
+    "label": "Get In Touch",
+    "title": "We'd Love to",
+    "titleHighlight": " Hear From You",
+    "subtitle": "Have a question or feedback? Our team is here to help you on your journey to finding love.",
+    "infoTitle": "Contact Information",
+    "infoSubtitle": "Reach out through any of these channels and we'll respond within 24 hours.",
+    "company": "Company",
+    "email": "Email Us",
+    "address": "Address",
+    "hours": "Business Hours",
+    "hoursValue": "Mon - Fri: 9AM - 6PM BRT",
+    "form": {
+      "name": "Full Name",
+      "namePlaceholder": "John Doe",
+      "email": "Email Address",
+      "emailPlaceholder": "john@example.com",
+      "subject": "Subject",
+      "subjectPlaceholder": "Select a subject",
+      "message": "Your Message",
+      "messagePlaceholder": "Tell us how we can help you...",
+      "submit": "Send Message",
+      "subjects": {
+        "general": "General Inquiry",
+        "support": "Technical Support",
+        "billing": "Billing Question",
+        "partnership": "Partnership Opportunity",
+        "press": "Press & Media",
+        "other": "Other"
+      }
+    },
+    "success": {
+      "title": "Message Sent Successfully!",
+      "description": "Thank you for reaching out. Our team will get back to you within 24 hours.",
+      "another": "Send Another Message"
+    }
+  },
+  "cta": {
+    "badge": "Limited Time Offer",
+    "title": "Be Among the",
+    "titleHighlight": " First to Find Love",
+    "subtitle": "Join our exclusive early access program and get a head start on your journey to meaningful international connections.",
+    "benefits": {
+      "discount": "65% off your first 3 months",
+      "priority": "Priority access before public launch",
+      "badge": "Exclusive founding member badge",
+      "matching": "Early matching advantage"
+    },
+    "placeholder": "Enter your email address",
+    "submit": "Get Early Access",
+    "secure": "Your information is secure. We'll never spam you.",
+    "success": {
+      "title": "Welcome to the GreenGo Family!",
+      "description": "Check your email for confirmation. You're now on the exclusive early access list with 65% off!"
+    },
+    "card": {
+      "badge": "Founding Member",
+      "discount": "65%",
+      "off": "OFF",
+      "period": "First 3 months",
+      "expires": "Offer ends at launch"
+    }
+  },
+  "footer": {
+    "tagline": "Learn, Converse, Love. Breaking language barriers and connecting hearts across the globe.",
+    "product": "Product",
+    "company": "Company",
+    "support": "Support",
+    "legal": "Legal",
+    "links": {
+      "features": "Features",
+      "pricing": "Pricing",
+      "howItWorks": "How It Works",
+      "successStories": "Success Stories",
+      "downloadApp": "Download App",
+      "aboutUs": "About Us",
+      "careers": "Careers",
+      "press": "Press",
+      "blog": "Blog",
+      "contact": "Contact",
+      "helpCenter": "Help Center",
+      "safetyTips": "Safety Tips",
+      "communityGuidelines": "Community Guidelines",
+      "trustSafety": "Trust & Safety",
+      "cookiePolicy": "Cookie Policy",
+      "termsOfService": "Terms of Service",
+      "privacyPolicy": "Privacy Policy",
+      "gdpr": "GDPR",
+      "refundPolicy": "Refund Policy",
+      "licenses": "Licenses"
+    },
+    "copyright": "GreenGo Chat. All rights reserved.",
+    "madeWith": "Made with",
+    "forLovers": "for lovers worldwide"
+  },
+  "language": {
+    "en": "English",
+    "pt": "Portuguese"
+  }
+}
