@@ -13,7 +13,7 @@ import Footer from './components/Footer';
 import SparkleBackground from './components/SparkleBackground';
 
 // Pages
-import { PrivacyPolicy, GDPR, TermsOfService, CookiePolicy, About } from './pages';
+import { PrivacyPolicy, GDPR, TermsOfService, CookiePolicy, About, DeleteAccount } from './pages';
 
 // Home Page Component
 const HomePage = () => (
@@ -45,6 +45,7 @@ function App() {
           <Route path="/terms-of-service" element={<TermsOfService />} />
           <Route path="/cookie-policy" element={<CookiePolicy />} />
           <Route path="/about" element={<About />} />
+          <Route path="/delete-account" element={<DeleteAccount />} />
         </Routes>
       </div>
     </Router>
