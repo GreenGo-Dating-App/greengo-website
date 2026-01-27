@@ -22,8 +22,7 @@ const Footer = () => {
       titleKey: 'footer.legal',
       links: [
         { nameKey: 'footer.links.termsOfService', href: '/terms-of-service', internal: true },
-        { nameKey: 'footer.links.privacyPolicy', href: '/privacy-policy', internal: true },
-        { nameKey: 'footer.links.gdpr', href: '/gdpr', internal: true }
+        { nameKey: 'footer.links.privacyPolicy', href: '/privacy-policy', internal: true }
       ]
     }
   };
@@ -52,7 +51,7 @@ const Footer = () => {
               <div className="footer-contact">
                 <div className="contact-item">
                   <Mail size={18} />
-                  <a href="mailto:support@greengochat.com">support@greengochat.com</a>
+                  <a href="mailto:info@greengochat.com">info@greengochat.com</a>
                 </div>
                 <div className="contact-item">
                   <MapPin size={18} />

@@ -15,7 +15,7 @@ const PrivacyPolicy = () => {
       }
     >
       <p className="last-updated">
-        {isPt ? "Última Atualização: 15 de Janeiro de 2026" : "Last Updated: January 15, 2026"}
+        {isPt ? "Última Atualização: 27 de Janeiro de 2026" : "Last Updated: January 27, 2026"}
       </p>
 
       <h2>{isPt ? "1. Introdução" : "1. Introduction"}</h2>
@@ -58,7 +58,7 @@ const PrivacyPolicy = () => {
         <li><strong>CNPJ:</strong> 54.665.599/0001-26</li>
         <li><strong>{isPt ? "Endereço:" : "Address:"}</strong> Rua Cardeal Arcoverde 2365, Cj 111, Pinheiros, São Paulo, SP, 05407-003, Brasil</li>
         <li><strong>{isPt ? "Encarregado de Proteção de Dados (DPO):" : "Data Protection Officer (DPO):"}</strong> Mauro Tommasi</li>
-        <li><strong>Email:</strong> privacidade@greengochat.com</li>
+        <li><strong>Email:</strong> info@greengochat.com</li>
       </ul>
 
       <h2>{isPt ? "3. Informações que Coletamos" : "3. Information We Collect"}</h2>
@@ -80,6 +80,68 @@ const PrivacyPolicy = () => {
         <li><strong>{isPt ? "Dados de Localização:" : "Location Data:"}</strong> {isPt ? "Localização precisa ou aproximada baseada em GPS, Wi-Fi ou endereço IP" : "Precise or approximate location based on GPS, Wi-Fi, or IP address"}</li>
         <li><strong>{isPt ? "Cookies e Rastreamento:" : "Cookies and Tracking:"}</strong> {isPt ? "Informações coletadas através de cookies, pixels e tecnologias similares" : "Information collected through cookies, pixels, and similar technologies"}</li>
       </ul>
+
+      <h3>{isPt ? "3.3 Permissões do Aplicativo Móvel" : "3.3 Mobile Application Permissions"}</h3>
+      <p>
+        {isPt
+          ? "Nosso aplicativo móvel requer certas permissões do dispositivo para funcionar corretamente. Abaixo está uma lista das permissões que podemos solicitar e como são utilizadas:"
+          : "Our mobile application requires certain device permissions to function properly. Below is a list of permissions we may request and how they are used:"
+        }
+      </p>
+
+      <h4>{isPt ? "a) Permissão de Câmera" : "a) Camera Permission"} (android.permission.CAMERA)</h4>
+      <ul>
+        <li><strong>{isPt ? "Propósito:" : "Purpose:"}</strong> {isPt ? "Permitir que você tire fotos para seu perfil, capture imagens para verificação de identidade e compartilhe fotos em mensagens com outros usuários." : "To allow you to take photos for your profile, capture images for identity verification, and share photos in messages with other users."}</li>
+        <li><strong>{isPt ? "Uso de Dados:" : "Data Use:"}</strong> {isPt ? "Fotos tiradas com a câmera são enviadas para nossos servidores para exibição do perfil, verificação de identidade ou compartilhamento de mensagens." : "Photos taken using the camera are uploaded to our servers for profile display, identity verification, or message sharing."}</li>
+        <li><strong>{isPt ? "Armazenamento:" : "Storage:"}</strong> {isPt ? "As imagens são armazenadas com segurança em nossos servidores de acordo com nossas políticas de retenção de dados." : "Images are stored securely on our servers in accordance with our data retention policies."}</li>
+        <li><strong>{isPt ? "Compartilhamento com Terceiros:" : "Third-Party Sharing:"}</strong> {isPt ? "Fotos do perfil podem ser visíveis para outros usuários. Fotos de verificação são processadas por nossos provedores de serviços de verificação de identidade." : "Profile photos may be visible to other users. Verification photos are processed by our identity verification service providers."}</li>
+        <li><strong>{isPt ? "Controle do Usuário:" : "User Control:"}</strong> {isPt ? "Você pode revogar a permissão de câmera a qualquer momento através das configurações do seu dispositivo." : "You can revoke camera permission at any time through your device settings."}</li>
+      </ul>
+
+      <h4>{isPt ? "b) Permissão de Localização" : "b) Location Permission"}</h4>
+      <ul>
+        <li><strong>{isPt ? "Propósito:" : "Purpose:"}</strong> {isPt ? "Mostrar potenciais matches perto de sua localização e habilitar recursos baseados em localização." : "To show you potential matches near your location and enable location-based features."}</li>
+        <li><strong>{isPt ? "Uso de Dados:" : "Data Use:"}</strong> {isPt ? "Dados de localização são usados para calcular distâncias e sugerir usuários próximos." : "Location data is used to calculate distances and suggest nearby users."}</li>
+        <li><strong>{isPt ? "Compartilhamento com Terceiros:" : "Third-Party Sharing:"}</strong> {isPt ? "Localização aproximada pode ser mostrada a outros usuários (nível de cidade/região). Localização precisa não é compartilhada com outros usuários." : "Approximate location may be shown to other users (city/region level). Precise location is not shared with other users."}</li>
+        <li><strong>{isPt ? "Controle do Usuário:" : "User Control:"}</strong> {isPt ? "Você pode desativar as permissões de localização a qualquer momento." : "You can disable location permissions at any time."}</li>
+      </ul>
+
+      <h4>{isPt ? "c) Permissão de Armazenamento" : "c) Storage Permission"}</h4>
+      <ul>
+        <li><strong>{isPt ? "Propósito:" : "Purpose:"}</strong> {isPt ? "Permitir que você selecione e envie fotos da galeria do seu dispositivo." : "To allow you to select and upload photos from your device gallery."}</li>
+        <li><strong>{isPt ? "Uso de Dados:" : "Data Use:"}</strong> {isPt ? "Fotos selecionadas são enviadas para nossos servidores para fins de perfil ou mensagens." : "Selected photos are uploaded to our servers for profile or messaging purposes."}</li>
+        <li><strong>{isPt ? "Controle do Usuário:" : "User Control:"}</strong> {isPt ? "Você pode revogar a permissão de armazenamento a qualquer momento." : "You can revoke storage permission at any time."}</li>
+      </ul>
+
+      <h4>{isPt ? "d) Acesso à Internet" : "d) Internet Access"} (android.permission.INTERNET)</h4>
+      <ul>
+        <li><strong>{isPt ? "Propósito:" : "Purpose:"}</strong> {isPt ? "Necessário para o aplicativo se comunicar com nossos servidores, carregar conteúdo e habilitar mensagens." : "Required for the app to communicate with our servers, load content, and enable messaging."}</li>
+        <li><strong>{isPt ? "Uso de Dados:" : "Data Use:"}</strong> {isPt ? "Todos os dados transmitidos pela internet são criptografados usando TLS 1.3." : "All data transmitted over the internet is encrypted using TLS 1.3."}</li>
+      </ul>
+
+      <h4>{isPt ? "e) Notificações Push" : "e) Push Notifications"} (android.permission.POST_NOTIFICATIONS)</h4>
+      <ul>
+        <li><strong>{isPt ? "Propósito:" : "Purpose:"}</strong> {isPt ? "Enviar notificações sobre novas mensagens, matches e atualizações importantes." : "To send you notifications about new messages, matches, and important updates."}</li>
+        <li><strong>{isPt ? "Compartilhamento com Terceiros:" : "Third-Party Sharing:"}</strong> {isPt ? "Usamos Firebase Cloud Messaging (Google) para entregar notificações." : "We use Firebase Cloud Messaging (Google) to deliver notifications."}</li>
+        <li><strong>{isPt ? "Controle do Usuário:" : "User Control:"}</strong> {isPt ? "Você pode desativar notificações a qualquer momento através das configurações do seu dispositivo ou preferências no aplicativo." : "You can disable notifications at any time through your device settings or in-app preferences."}</li>
+      </ul>
+
+      <h4>{isPt ? "f) Autenticação Biométrica" : "f) Biometric Authentication"} (android.permission.USE_BIOMETRIC)</h4>
+      <ul>
+        <li><strong>{isPt ? "Propósito:" : "Purpose:"}</strong> {isPt ? "Fornecer login seguro usando impressão digital ou reconhecimento facial." : "To provide secure login using fingerprint or face recognition."}</li>
+        <li><strong>{isPt ? "Uso de Dados:" : "Data Use:"}</strong> {isPt ? "Dados biométricos são processados localmente no seu dispositivo e nunca transmitidos para nossos servidores." : "Biometric data is processed locally on your device and never transmitted to our servers."}</li>
+        <li><strong>{isPt ? "Controle do Usuário:" : "User Control:"}</strong> {isPt ? "Você pode optar por usar autenticação por senha." : "You can choose to use password authentication instead."}</li>
+      </ul>
+
+      <div className="highlight-box">
+        <p>
+          <strong>{isPt ? "Como Gerenciar Permissões:" : "How to Manage Permissions:"}</strong>{" "}
+          {isPt
+            ? "Usuários Android: Vá para Configurações > Aplicativos > GreenGo Chat > Permissões. Usuários iOS: Vá para Configurações > GreenGo Chat. Você pode ativar ou desativar permissões individuais a qualquer momento."
+            : "Android Users: Go to Settings > Apps > GreenGo Chat > Permissions. iOS Users: Go to Settings > GreenGo Chat. You can toggle individual permissions on or off at any time."
+          }
+        </p>
+      </div>
 
       <h2>{isPt ? "4. Base Legal para Tratamento (LGPD)" : "4. Legal Basis for Processing (LGPD)"}</h2>
       <p>{isPt ? "De acordo com a LGPD, tratamos seus dados pessoais com base nas seguintes hipóteses legais:" : "In accordance with the LGPD, we process your personal data based on the following legal grounds:"}</p>
@@ -138,8 +200,8 @@ const PrivacyPolicy = () => {
       </ul>
       <p>
         {isPt
-          ? "Para exercer seus direitos, entre em contato com nosso DPO através do email: privacidade@greengochat.com"
-          : "To exercise your rights, contact our DPO at: privacidade@greengochat.com"
+          ? "Para exercer seus direitos, entre em contato com nosso DPO através do email: info@greengochat.com"
+          : "To exercise your rights, contact our DPO at: info@greengochat.com"
         }
       </p>
 
@@ -216,9 +278,9 @@ const PrivacyPolicy = () => {
         }
       </p>
       <ul>
-        <li><strong>Email:</strong> privacidade@greengochat.com</li>
+        <li><strong>Email:</strong> info@greengochat.com</li>
         <li><strong>{isPt ? "Endereço:" : "Address:"}</strong> Universo Kardasha Comunicacoes LTDA, Rua Cardeal Arcoverde 2365, Cj 111, Pinheiros, São Paulo, SP, 05407-003, Brasil</li>
-        <li><strong>{isPt ? "Encarregado de Proteção de Dados (DPO):" : "Data Protection Officer (DPO):"}</strong> Mauro Tommasi - dpo@greengochat.com</li>
+        <li><strong>{isPt ? "Encarregado de Proteção de Dados (DPO):" : "Data Protection Officer (DPO):"}</strong> Mauro Tommasi - info@greengochat.com</li>
       </ul>
     </PageLayout>
   );

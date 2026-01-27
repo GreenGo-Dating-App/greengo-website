@@ -19,7 +19,7 @@ const GDPR = () => {
       <div className="highlight-box">
         <p>
           <strong>Data Controller:</strong> GreenGo Chat Inc. is the data controller responsible
-          for your personal data. Our Data Protection Officer can be reached at dpo@greengochat.com.
+          for your personal data. Our Data Protection Officer can be reached at info@greengochat.com.
         </p>
       </div>
 
@@ -132,7 +132,7 @@ const GDPR = () => {
       <p>You can exercise your GDPR rights through:</p>
       <ul>
         <li><strong>In-App Settings:</strong> Access, download, or delete your data directly</li>
-        <li><strong>Email Request:</strong> Contact privacy@greengochat.com with your request</li>
+        <li><strong>Email Request:</strong> Contact info@greengochat.com with your request</li>
         <li><strong>Written Request:</strong> Send a letter to our Data Protection Officer</li>
       </ul>
       <p>
@@ -226,7 +226,7 @@ const GDPR = () => {
       <h2>10. Contact Our DPO</h2>
       <p>For GDPR-related inquiries, contact our Data Protection Officer:</p>
       <ul>
-        <li><strong>Email:</strong> dpo@greengochat.com</li>
+        <li><strong>Email:</strong> info@greengochat.com</li>
         <li><strong>Address:</strong> Data Protection Officer, GreenGo Chat Inc., 123 Innovation Way, San Francisco, CA 94105, USA</li>
       </ul>
     </PageLayout>

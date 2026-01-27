@@ -55,8 +55,8 @@ const Contact = () => {
     {
       icon: Mail,
       titleKey: 'contact.email',
-      content: 'support@greengochat.com',
-      link: 'mailto:support@greengochat.com'
+      content: 'info@greengochat.com',
+      link: 'mailto:info@greengochat.com'
     },
     {
       icon: MapPin,

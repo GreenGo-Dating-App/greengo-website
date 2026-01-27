@@ -29,7 +29,7 @@ const TermsOfService = () => {
         <li><strong>{isPt ? "Razão Social:" : "Company Name:"}</strong> Universo Kardasha Comunicacoes LTDA</li>
         <li><strong>CNPJ:</strong> 54.665.599/0001-26</li>
         <li><strong>{isPt ? "Endereço:" : "Address:"}</strong> Rua Cardeal Arcoverde 2365, Cj 111, Pinheiros, São Paulo, SP, 05407-003, Brasil</li>
-        <li><strong>Email:</strong> contato@greengochat.com</li>
+        <li><strong>Email:</strong> info@greengochat.com</li>
       </ul>
 
       <h2>{isPt ? "2. Status de Pré-Venda" : "2. Pre-Sale Status"}</h2>
@@ -186,10 +186,10 @@ const TermsOfService = () => {
         {isPt
           ? `Sua segurança é nossa prioridade. Encorajamos você a denunciar qualquer comportamento, conteúdo
              ou preocupação de segurança inadequada através do recurso de denúncia no aplicativo ou entrando
-             em contato com seguranca@greengochat.com. Investigamos todas as denúncias e tomamos as medidas
+             em contato com info@greengochat.com. Investigamos todas as denúncias e tomamos as medidas
              apropriadas.`
           : `Your safety is our priority. We encourage you to report any inappropriate behavior, content, or
-             safety concerns through the in-app reporting feature or by contacting seguranca@greengochat.com.
+             safety concerns through the in-app reporting feature or by contacting info@greengochat.com.
              We investigate all reports and take appropriate action.`
         }
       </p>
@@ -294,8 +294,8 @@ const TermsOfService = () => {
       <h2>{isPt ? "16. Contato" : "16. Contact Information"}</h2>
       <p>{isPt ? "Para dúvidas sobre estes Termos, entre em contato:" : "For questions about these Terms, please contact:"}</p>
       <ul>
-        <li><strong>Email:</strong> contato@greengochat.com</li>
-        <li><strong>{isPt ? "Suporte:" : "Support:"}</strong> suporte@greengochat.com</li>
+        <li><strong>Email:</strong> info@greengochat.com</li>
+        <li><strong>{isPt ? "Suporte:" : "Support:"}</strong> info@greengochat.com</li>
         <li><strong>{isPt ? "Endereço:" : "Address:"}</strong> Universo Kardasha Comunicacoes LTDA, Rua Cardeal Arcoverde 2365, Cj 111, Pinheiros, São Paulo, SP, 05407-003, Brasil</li>
       </ul>
     </PageLayout>

@@ -1,13 +1,42 @@
-import React, { useEffect } from 'react';
-import { motion } from 'framer-motion';
+import React, { useEffect, useState } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { ArrowLeft, Sparkles } from 'lucide-react';
+import { ArrowLeft, Sparkles, Globe } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 import './PageLayout.css';
 
 const PageLayout = ({ title, subtitle, children }) => {
+  const { i18n } = useTranslation();
+  const [isLangMenuOpen, setIsLangMenuOpen] = useState(false);
+  const getCurrentLangCode = () => {
+    const lang = i18n.language;
+    if (lang?.startsWith('pt')) return 'pt';
+    if (lang === 'es') return 'es';
+    if (lang === 'fr') return 'fr';
+    if (lang === 'de') return 'de';
+    if (lang === 'it') return 'it';
+    return 'en';
+  };
+  const currentLanguage = getCurrentLangCode();
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
+  useEffect(() => {
+    const handleClickOutside = (e) => {
+      if (!e.target.closest('.page-language-switcher')) {
+        setIsLangMenuOpen(false);
+      }
+    };
+    document.addEventListener('click', handleClickOutside);
+    return () => document.removeEventListener('click', handleClickOutside);
+  }, []);
+
+  const changeLanguage = (lang) => {
+    i18n.changeLanguage(lang);
+    setIsLangMenuOpen(false);
+  };
 
   return (
     <div className="page-layout">
@@ -69,10 +98,87 @@ const PageLayout = ({ title, subtitle, children }) => {
       {/* Header */}
       <header className="page-header">
         <div className="container">
-          <Link to="/" className="back-link">
-            <ArrowLeft size={20} />
-            <span>Back to Home</span>
-          </Link>
+          <div className="page-header-top">
+            <Link to="/" className="back-link">
+              <ArrowLeft size={20} />
+              <span>{
+                currentLanguage === 'pt' ? 'Voltar ao Início' :
+                currentLanguage === 'es' ? 'Volver al Inicio' :
+                currentLanguage === 'fr' ? 'Retour à l\'Accueil' :
+                currentLanguage === 'de' ? 'Zurück zur Startseite' :
+                currentLanguage === 'it' ? 'Torna alla Home' :
+                'Back to Home'
+              }</span>
+            </Link>
+
+            {/* Language Switcher */}
+            <div className="page-language-switcher">
+              <button
+                className="page-lang-toggle"
+                onClick={(e) => {
+                  e.stopPropagation();
+                  setIsLangMenuOpen(!isLangMenuOpen);
+                }}
+              >
+                <Globe size={18} />
+                <span>{currentLanguage.toUpperCase()}</span>
+              </button>
+              <AnimatePresence>
+                {isLangMenuOpen && (
+                  <motion.div
+                    className="page-lang-dropdown"
+                    initial={{ opacity: 0, y: -10 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: -10 }}
+                    transition={{ duration: 0.2 }}
+                  >
+                    <button
+                      className={`page-lang-option ${currentLanguage === 'en' ? 'active' : ''}`}
+                      onClick={() => changeLanguage('en')}
+                    >
+                      <span>🇺🇸</span>
+                      <span>English</span>
+                    </button>
+                    <button
+                      className={`page-lang-option ${currentLanguage === 'pt' ? 'active' : ''}`}
+                      onClick={() => changeLanguage('pt')}
+                    >
+                      <span>🇧🇷</span>
+                      <span>Português</span>
+                    </button>
+                    <button
+                      className={`page-lang-option ${currentLanguage === 'es' ? 'active' : ''}`}
+                      onClick={() => changeLanguage('es')}
+                    >
+                      <span>🇪🇸</span>
+                      <span>Español</span>
+                    </button>
+                    <button
+                      className={`page-lang-option ${currentLanguage === 'fr' ? 'active' : ''}`}
+                      onClick={() => changeLanguage('fr')}
+                    >
+                      <span>🇫🇷</span>
+                      <span>Français</span>
+                    </button>
+                    <button
+                      className={`page-lang-option ${currentLanguage === 'de' ? 'active' : ''}`}
+                      onClick={() => changeLanguage('de')}
+                    >
+                      <span>🇩🇪</span>
+                      <span>Deutsch</span>
+                    </button>
+                    <button
+                      className={`page-lang-option ${currentLanguage === 'it' ? 'active' : ''}`}
+                      onClick={() => changeLanguage('it')}
+                    >
+                      <span>🇮🇹</span>
+                      <span>Italiano</span>
+                    </button>
+                  </motion.div>
+                )}
+              </AnimatePresence>
+            </div>
+          </div>
 
           <motion.div
             className="page-title-wrapper"

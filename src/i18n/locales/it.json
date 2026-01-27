@@ -1,0 +1,269 @@
+{
+  "nav": {
+    "home": "Home",
+    "features": "Funzionalita",
+    "howItWorks": "Come Funziona",
+    "pricing": "Prezzi",
+    "testimonials": "Testimonianze",
+    "earlyAccess": "Accesso Anticipato"
+  },
+  "hero": {
+    "badge": "Lancio Q1 2026",
+    "title1": "Impara.",
+    "title2": "Conversa.",
+    "title3": "Ama.",
+    "subtitle": "Connettiti con persone straordinarie in tutto il mondo. Abbatti le barriere linguistiche e scopri relazioni significative che trascendono i confini.",
+    "cta": "Accesso Anticipato",
+    "explore": "Esplora Funzionalita",
+    "discount": "Sconto Early Bird",
+    "countries": "Paesi Supportati",
+    "translation": "Traduzione IA",
+    "scroll": "Scorri per esplorare"
+  },
+  "features": {
+    "label": "Perche Scegliere GreenGo",
+    "title": "Funzionalita Premium per",
+    "titleHighlight": " Connessioni Premium",
+    "subtitle": "Vivi gli incontri reinventati con tecnologia all'avanguardia e servizio incomparabile.",
+    "global": {
+      "title": "Connessioni Globali",
+      "description": "Connettiti con persone straordinarie da oltre 100 paesi. Espandi i tuoi orizzonti e scopri l'amore senza confini."
+    },
+    "translation": {
+      "title": "Traduzione IA",
+      "description": "Abbatti le barriere linguistiche con la nostra traduzione in tempo reale alimentata dall'IA. Comunica perfettamente in qualsiasi lingua."
+    },
+    "verified": {
+      "title": "Profili Verificati",
+      "description": "Ogni profilo passa attraverso una verifica rigorosa. Connettiti con fiducia sapendo che tutti sono chi dicono di essere."
+    },
+    "matching": {
+      "title": "Matching Intelligente",
+      "description": "Il nostro sofisticato algoritmo impara le tue preferenze per offrirti connessioni significative che contano davvero."
+    },
+    "events": {
+      "title": "Eventi Esclusivi",
+      "description": "Accedi a eventi virtuali e di persona esclusivi per i membri. Connettiti con persone di tutto il mondo."
+    },
+    "coaching": {
+      "title": "Coaching Relazionale",
+      "description": "I membri premium hanno accesso a coach relazionali certificati per una guida personalizzata."
+    },
+    "instant": {
+      "title": "Connessione Istantanea",
+      "description": "Salta lo scorrimento infinito. Il nostro matching prioritario ti mette davanti a profili compatibili istantaneamente."
+    },
+    "vip": {
+      "title": "Trattamento VIP",
+      "description": "I membri Diamond godono di servizio concierge, supporto prioritario e vantaggi esclusivi."
+    }
+  },
+  "howItWorks": {
+    "label": "Processo Semplice",
+    "title": "Il Tuo Viaggio verso",
+    "titleHighlight": " l'Amore Inizia Qui",
+    "subtitle": "Quattro semplici passi per trovare la tua connessione internazionale perfetta.",
+    "step1": {
+      "title": "Crea il Tuo Profilo",
+      "description": "Registrati e crea il tuo profilo unico. Aggiungi foto, interessi e cosa cerchi in una connessione."
+    },
+    "step2": {
+      "title": "Scopri Match",
+      "description": "Il nostro algoritmo IA analizza le tue preferenze e presenta match altamente compatibili da tutto il mondo."
+    },
+    "step3": {
+      "title": "Inizia Conversazioni",
+      "description": "Rompi il ghiaccio con i nostri avviatori di conversazione intelligenti. Barriere linguistiche? La nostra IA traduce istantaneamente."
+    },
+    "step4": {
+      "title": "Costruisci Connessioni",
+      "description": "Approfondisci le tue conversazioni. Pianifica appuntamenti virtuali, partecipa a eventi esclusivi e coltiva relazioni significative."
+    }
+  },
+  "pricing": {
+    "label": "Piani Tariffari",
+    "title": "Scegli il Tuo",
+    "titleHighlight": " Piano Perfetto",
+    "subtitle": "Assicurati il tuo accesso anticipato! Prezzi speciali di lancio disponibili ora.",
+    "getStarted": "Abbonati Ora",
+    "mostPopular": "Piu Popolare",
+    "silver": {
+      "name": "Argento",
+      "description": "Perfetto per iniziare",
+      "period": "1 mese",
+      "feature1": "Visibilita profilo base",
+      "feature2": "Messaggi standard (50/giorno)",
+      "feature3": "Visualizza profili in tutto il mondo",
+      "feature4": "Algoritmo di matching base",
+      "feature5": "Supporto email"
+    },
+    "gold": {
+      "name": "Oro",
+      "description": "Miglior valore",
+      "period": "6 mesi",
+      "feature1": "Visibilita profilo migliorata",
+      "feature2": "Messaggi illimitati",
+      "feature3": "Traduzione IA (100/giorno)",
+      "feature4": "Filtri di matching avanzati",
+      "feature5": "Vedi chi ha visualizzato il tuo profilo",
+      "feature6": "Supporto prioritario",
+      "feature7": "Conferme di lettura"
+    },
+    "platinum": {
+      "name": "Platino",
+      "description": "Per connessioni serie",
+      "period": "1 anno",
+      "feature1": "Visibilita profilo massima",
+      "feature2": "Traduzione IA illimitata",
+      "feature3": "Boost profilo (3x/mese)",
+      "feature4": "Accesso a eventi esclusivi",
+      "feature5": "Funzione videochiamata",
+      "feature6": "Coaching relazionale",
+      "feature7": "Supporto VIP",
+      "feature8": "Navigazione in incognito"
+    },
+    "earlyBird": {
+      "title": "Accesso Anticipato VIP",
+      "description": "I membri Argento, Oro e Platino hanno",
+      "discount": "accesso anticipato esclusivo",
+      "period": "dal 1 Marzo!",
+      "cta": "Unisciti Ora"
+    }
+  },
+  "roadmap": {
+    "label": "Date Importanti",
+    "title": "Segna il Tuo",
+    "titleHighlight": " Calendario",
+    "subtitle": "Non perdere queste tappe importanti nel tuo viaggio per trovare l'amore con GreenGo.",
+    "preRegistration": {
+      "title": "Pre-Registrazione",
+      "description": "La pre-registrazione tramite l'app sara disponibile! Sii tra i primi a garantirti il posto."
+    },
+    "vipAccess": {
+      "title": "Accesso Anticipato VIP",
+      "description": "I membri Silver, Gold e Platinum avranno accesso anticipato esclusivo alla piattaforma!"
+    },
+    "officialLaunch": {
+      "title": "Lancio Ufficiale",
+      "description": "L'app sara aperta a TUTTI! Unisciti alla comunita globale di GreenGo."
+    },
+    "cta": "Assicurati il tuo accesso VIP ora e sii il primo in fila!",
+    "ctaButton": "Ottieni Accesso VIP"
+  },
+  "testimonials": {
+    "label": "Storie di Successo",
+    "title": "L'Amore Non Conosce",
+    "titleHighlight": " Confini",
+    "subtitle": "Unisciti a migliaia che hanno trovato il loro match internazionale perfetto con GreenGo.",
+    "stats": {
+      "couples": "Coppie Felici",
+      "satisfaction": "Tasso di Soddisfazione",
+      "rating": "Valutazione App Store",
+      "countries": "Paesi"
+    }
+  },
+  "contact": {
+    "label": "Contattaci",
+    "title": "Ci Piacerebbe",
+    "titleHighlight": " Sentirti",
+    "subtitle": "Hai una domanda o un feedback? Il nostro team e qui per aiutarti nel tuo viaggio per trovare l'amore.",
+    "infoTitle": "Informazioni di Contatto",
+    "infoSubtitle": "Contattaci attraverso uno di questi canali e ti risponderemo entro 24 ore.",
+    "company": "Azienda",
+    "email": "Email",
+    "address": "Indirizzo",
+    "hours": "Orari di Apertura",
+    "hoursValue": "Lun - Ven: 9:00 - 18:00 BRT",
+    "form": {
+      "name": "Nome Completo",
+      "namePlaceholder": "Mario Rossi",
+      "email": "Indirizzo Email",
+      "emailPlaceholder": "mario@esempio.com",
+      "subject": "Oggetto",
+      "subjectPlaceholder": "Seleziona un oggetto",
+      "message": "Il Tuo Messaggio",
+      "messagePlaceholder": "Dicci come possiamo aiutarti...",
+      "submit": "Invia Messaggio",
+      "subjects": {
+        "general": "Richiesta Generale",
+        "support": "Supporto Tecnico",
+        "billing": "Domanda sulla Fatturazione",
+        "partnership": "Opportunita di Partnership",
+        "press": "Stampa e Media",
+        "other": "Altro"
+      }
+    },
+    "success": {
+      "title": "Messaggio Inviato con Successo!",
+      "description": "Grazie per averci contattato. Il nostro team ti rispondera entro 24 ore.",
+      "another": "Invia un Altro Messaggio"
+    }
+  },
+  "cta": {
+    "badge": "Offerta a Tempo Limitato",
+    "title": "Sii Tra i",
+    "titleHighlight": " Primi a Trovare l'Amore",
+    "subtitle": "Unisciti al nostro programma esclusivo di accesso anticipato e ottieni un vantaggio nel tuo viaggio verso connessioni internazionali significative.",
+    "benefits": {
+      "discount": "65% di sconto sui primi 3 mesi",
+      "priority": "Accesso prioritario prima del lancio pubblico",
+      "badge": "Badge esclusivo membro fondatore",
+      "matching": "Vantaggio matching anticipato"
+    },
+    "placeholder": "Inserisci il tuo indirizzo email",
+    "submit": "Ottieni Accesso Anticipato",
+    "secure": "Le tue informazioni sono al sicuro. Non ti invieremo mai spam.",
+    "success": {
+      "title": "Benvenuto nella Famiglia GreenGo!",
+      "description": "Controlla la tua email per la conferma. Sei ora nella lista esclusiva di accesso anticipato con il 65% di sconto!"
+    },
+    "card": {
+      "badge": "Membro Fondatore",
+      "discount": "65%",
+      "off": "OFF",
+      "period": "Primi 3 mesi",
+      "expires": "L'offerta termina al lancio"
+    }
+  },
+  "footer": {
+    "tagline": "Impara, Conversa, Ama. Abbattere le barriere linguistiche e connettere i cuori in tutto il mondo.",
+    "product": "Prodotto",
+    "company": "Azienda",
+    "support": "Supporto",
+    "legal": "Legale",
+    "links": {
+      "features": "Funzionalita",
+      "pricing": "Prezzi",
+      "howItWorks": "Come Funziona",
+      "successStories": "Storie di Successo",
+      "downloadApp": "Scarica App",
+      "aboutUs": "Chi Siamo",
+      "careers": "Carriere",
+      "press": "Stampa",
+      "blog": "Blog",
+      "contact": "Contatto",
+      "helpCenter": "Centro Assistenza",
+      "safetyTips": "Consigli di Sicurezza",
+      "communityGuidelines": "Linee Guida della Community",
+      "trustSafety": "Fiducia e Sicurezza",
+      "cookiePolicy": "Politica dei Cookie",
+      "termsOfService": "Termini di Servizio",
+      "privacyPolicy": "Politica sulla Privacy",
+      "gdpr": "GDPR",
+      "refundPolicy": "Politica di Rimborso",
+      "licenses": "Licenze"
+    },
+    "copyright": "GreenGo Chat. Tutti i diritti riservati.",
+    "madeWith": "Fatto con",
+    "forLovers": "per gli amanti di tutto il mondo"
+  },
+  "language": {
+    "en": "Inglese",
+    "pt": "Portoghese",
+    "pt_BR": "Portoghese (Brasile)",
+    "es": "Spagnolo",
+    "fr": "Francese",
+    "de": "Tedesco",
+    "it": "Italiano"
+  }
+}

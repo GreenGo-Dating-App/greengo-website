@@ -251,7 +251,7 @@ const CookiePolicy = () => {
       <h2>9. Contact Us</h2>
       <p>If you have questions about our use of cookies, please contact:</p>
       <ul>
-        <li><strong>Email:</strong> privacy@greengochat.com</li>
+        <li><strong>Email:</strong> info@greengochat.com</li>
         <li><strong>Address:</strong> GreenGo Chat Inc., 123 Innovation Way, San Francisco, CA 94105, USA</li>
       </ul>
     </PageLayout>

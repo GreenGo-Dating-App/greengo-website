@@ -11,7 +11,16 @@ const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isLangMenuOpen, setIsLangMenuOpen] = useState(false);
 
-  const currentLanguage = i18n.language?.startsWith('pt') ? 'pt' : 'en';
+  const getCurrentLangCode = () => {
+    const lang = i18n.language;
+    if (lang?.startsWith('pt')) return 'pt';
+    if (lang === 'es') return 'es';
+    if (lang === 'fr') return 'fr';
+    if (lang === 'de') return 'de';
+    if (lang === 'it') return 'it';
+    return 'en';
+  };
+  const currentLanguage = getCurrentLangCode();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -42,7 +51,6 @@ const Navbar = () => {
     { name: t('nav.features'), href: '#features' },
     { name: t('nav.howItWorks'), href: '#how-it-works' },
     { name: t('nav.pricing'), href: '#pricing' },
-    { name: t('nav.testimonials'), href: '#testimonials' },
   ];
 
   return (
@@ -109,6 +117,34 @@ const Navbar = () => {
                     <span className="lang-flag">🇧🇷</span>
                     <span>{t('language.pt')}</span>
                   </button>
+                  <button
+                    className={`lang-option ${currentLanguage === 'es' ? 'active' : ''}`}
+                    onClick={() => changeLanguage('es')}
+                  >
+                    <span className="lang-flag">🇪🇸</span>
+                    <span>{t('language.es')}</span>
+                  </button>
+                  <button
+                    className={`lang-option ${currentLanguage === 'fr' ? 'active' : ''}`}
+                    onClick={() => changeLanguage('fr')}
+                  >
+                    <span className="lang-flag">🇫🇷</span>
+                    <span>{t('language.fr')}</span>
+                  </button>
+                  <button
+                    className={`lang-option ${currentLanguage === 'de' ? 'active' : ''}`}
+                    onClick={() => changeLanguage('de')}
+                  >
+                    <span className="lang-flag">🇩🇪</span>
+                    <span>{t('language.de')}</span>
+                  </button>
+                  <button
+                    className={`lang-option ${currentLanguage === 'it' ? 'active' : ''}`}
+                    onClick={() => changeLanguage('it')}
+                  >
+                    <span className="lang-flag">🇮🇹</span>
+                    <span>{t('language.it')}</span>
+                  </button>
                 </motion.div>
               )}
             </AnimatePresence>
@@ -157,6 +193,30 @@ const Navbar = () => {
                 onClick={() => changeLanguage('pt')}
               >
                 🇧🇷 PT
+              </button>
+              <button
+                className={`mobile-lang-btn ${currentLanguage === 'es' ? 'active' : ''}`}
+                onClick={() => changeLanguage('es')}
+              >
+                🇪🇸 ES
+              </button>
+              <button
+                className={`mobile-lang-btn ${currentLanguage === 'fr' ? 'active' : ''}`}
+                onClick={() => changeLanguage('fr')}
+              >
+                🇫🇷 FR
+              </button>
+              <button
+                className={`mobile-lang-btn ${currentLanguage === 'de' ? 'active' : ''}`}
+                onClick={() => changeLanguage('de')}
+              >
+                🇩🇪 DE
+              </button>
+              <button
+                className={`mobile-lang-btn ${currentLanguage === 'it' ? 'active' : ''}`}
+                onClick={() => changeLanguage('it')}
+              >
+                🇮🇹 IT
               </button>
             </div>
             <a href="#early-access" className="btn btn-primary mobile-cta">

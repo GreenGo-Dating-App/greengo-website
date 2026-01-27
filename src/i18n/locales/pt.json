@@ -259,6 +259,11 @@
   },
   "language": {
     "en": "Inglês",
-    "pt": "Português"
+    "pt": "Português",
+    "pt_BR": "Português (Brasil)",
+    "es": "Espanhol",
+    "fr": "Francês",
+    "de": "Alemão",
+    "it": "Italiano"
   }
 }

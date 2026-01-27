@@ -1,0 +1,269 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "features": "Funktionen",
+    "howItWorks": "So funktioniert's",
+    "pricing": "Preise",
+    "testimonials": "Erfahrungsberichte",
+    "earlyAccess": "Fruehzugang"
+  },
+  "hero": {
+    "badge": "Start Q1 2026",
+    "title1": "Lernen.",
+    "title2": "Unterhalten.",
+    "title3": "Lieben.",
+    "subtitle": "Verbinden Sie sich mit aussergewoehnlichen Menschen weltweit. Ueberwinden Sie Sprachbarrieren und entdecken Sie bedeutungsvolle Beziehungen, die Grenzen ueberschreiten.",
+    "cta": "Fruehzugang",
+    "explore": "Funktionen erkunden",
+    "discount": "Early Bird Rabatt",
+    "countries": "Unterstuetzte Laender",
+    "translation": "KI-Uebersetzung",
+    "scroll": "Scrollen zum Erkunden"
+  },
+  "features": {
+    "label": "Warum GreenGo waehlen",
+    "title": "Premium-Funktionen fuer",
+    "titleHighlight": " Premium-Verbindungen",
+    "subtitle": "Erleben Sie Dating neu gedacht mit modernster Technologie und unvergleichlichem Service.",
+    "global": {
+      "title": "Globale Verbindungen",
+      "description": "Verbinden Sie sich mit aussergewoehnlichen Menschen aus ueber 100 Laendern. Erweitern Sie Ihre Horizonte und entdecken Sie Liebe ohne Grenzen."
+    },
+    "translation": {
+      "title": "KI-Uebersetzung",
+      "description": "Ueberwinden Sie Sprachbarrieren mit unserer KI-gestuetzten Echtzeituebersetzung. Kommunizieren Sie nahtlos in jeder Sprache."
+    },
+    "verified": {
+      "title": "Verifizierte Profile",
+      "description": "Jedes Profil durchlaeuft eine strenge Verifizierung. Verbinden Sie sich mit der Gewissheit, dass jeder ist, wer er vorgibt zu sein."
+    },
+    "matching": {
+      "title": "Intelligentes Matching",
+      "description": "Unser ausgekluegelter Algorithmus lernt Ihre Praeferenzen, um bedeutungsvolle Verbindungen zu liefern, die wirklich zaehlen."
+    },
+    "events": {
+      "title": "Exklusive Events",
+      "description": "Zugang zu exklusiven virtuellen und persoenlichen Events nur fuer Mitglieder. Vernetzen Sie sich mit Gleichgesinnten weltweit."
+    },
+    "coaching": {
+      "title": "Beziehungscoaching",
+      "description": "Premium-Mitglieder erhalten Zugang zu zertifizierten Beziehungscoaches fuer personalisierte Beratung."
+    },
+    "instant": {
+      "title": "Sofortige Verbindung",
+      "description": "Ueberspringen Sie das endlose Wischen. Unser Prioritaets-Matching bringt Sie sofort vor kompatible Profile."
+    },
+    "vip": {
+      "title": "VIP-Behandlung",
+      "description": "Diamond-Mitglieder geniessen Concierge-Service, Prioritaets-Support und exklusive Vorteile."
+    }
+  },
+  "howItWorks": {
+    "label": "Einfacher Prozess",
+    "title": "Ihre Reise zur",
+    "titleHighlight": " Liebe beginnt hier",
+    "subtitle": "Vier einfache Schritte, um Ihre perfekte internationale Verbindung zu finden.",
+    "step1": {
+      "title": "Erstellen Sie Ihr Profil",
+      "description": "Registrieren Sie sich und erstellen Sie Ihr einzigartiges Profil. Fuegen Sie Fotos, Interessen und hinzu, was Sie in einer Verbindung suchen."
+    },
+    "step2": {
+      "title": "Entdecken Sie Matches",
+      "description": "Unser KI-Algorithmus analysiert Ihre Praeferenzen und praesentiert hochkompatible Matches aus aller Welt."
+    },
+    "step3": {
+      "title": "Starten Sie Gespraeche",
+      "description": "Brechen Sie das Eis mit unseren intelligenten Gespraechsstartern. Sprachbarrieren? Unsere KI uebersetzt sofort."
+    },
+    "step4": {
+      "title": "Bauen Sie Verbindungen auf",
+      "description": "Vertiefen Sie Ihre Gespraeche. Planen Sie virtuelle Dates, nehmen Sie an exklusiven Events teil und pflegen Sie bedeutungsvolle Beziehungen."
+    }
+  },
+  "pricing": {
+    "label": "Preisplaene",
+    "title": "Waehlen Sie Ihren",
+    "titleHighlight": " perfekten Plan",
+    "subtitle": "Sichern Sie sich Ihren Fruehzugang! Spezielle Einfuehrungspreise jetzt verfuegbar.",
+    "getStarted": "Jetzt abonnieren",
+    "mostPopular": "Am beliebtesten",
+    "silver": {
+      "name": "Silber",
+      "description": "Perfekt zum Starten",
+      "period": "1 Monat",
+      "feature1": "Basis-Profilsichtbarkeit",
+      "feature2": "Standard-Nachrichten (50/Tag)",
+      "feature3": "Profile weltweit ansehen",
+      "feature4": "Basis-Matching-Algorithmus",
+      "feature5": "E-Mail-Support"
+    },
+    "gold": {
+      "name": "Gold",
+      "description": "Bester Wert",
+      "period": "6 Monate",
+      "feature1": "Verbesserte Profilsichtbarkeit",
+      "feature2": "Unbegrenzte Nachrichten",
+      "feature3": "KI-Uebersetzung (100/Tag)",
+      "feature4": "Erweiterte Matching-Filter",
+      "feature5": "Sehen, wer Ihr Profil angesehen hat",
+      "feature6": "Prioritaets-Support",
+      "feature7": "Lesebestaetigung"
+    },
+    "platinum": {
+      "name": "Platin",
+      "description": "Fuer ernsthafte Verbindungen",
+      "period": "1 Jahr",
+      "feature1": "Maximale Profilsichtbarkeit",
+      "feature2": "Unbegrenzte KI-Uebersetzung",
+      "feature3": "Profil-Boost (3x/Monat)",
+      "feature4": "Zugang zu exklusiven Events",
+      "feature5": "Videoanruf-Funktion",
+      "feature6": "Beziehungscoaching",
+      "feature7": "VIP-Support",
+      "feature8": "Inkognito-Browsing"
+    },
+    "earlyBird": {
+      "title": "VIP-Fruehzugang",
+      "description": "Silber-, Gold- und Platin-Mitglieder erhalten",
+      "discount": "exklusiven Fruehzugang",
+      "period": "ab dem 1. Maerz!",
+      "cta": "Jetzt beitreten"
+    }
+  },
+  "roadmap": {
+    "label": "Wichtige Termine",
+    "title": "Markieren Sie Ihren",
+    "titleHighlight": " Kalender",
+    "subtitle": "Verpassen Sie nicht diese wichtigen Meilensteine auf Ihrer Reise zur Liebe mit GreenGo.",
+    "preRegistration": {
+      "title": "Vorregistrierung",
+      "description": "Die Vorregistrierung ueber die App wird verfuegbar sein! Seien Sie einer der Ersten, die sich ihren Platz sichern."
+    },
+    "vipAccess": {
+      "title": "VIP-Fruehzugang",
+      "description": "Silver-, Gold- und Platinum-Mitglieder erhalten exklusiven Fruehzugang zur Plattform!"
+    },
+    "officialLaunch": {
+      "title": "Offizieller Start",
+      "description": "Die App wird fuer ALLE geoeffnet! Treten Sie der globalen GreenGo-Community bei."
+    },
+    "cta": "Sichern Sie sich jetzt Ihren VIP-Zugang und seien Sie der Erste in der Reihe!",
+    "ctaButton": "VIP-Zugang erhalten"
+  },
+  "testimonials": {
+    "label": "Erfolgsgeschichten",
+    "title": "Liebe kennt keine",
+    "titleHighlight": " Grenzen",
+    "subtitle": "Schliessen Sie sich Tausenden an, die ihren perfekten internationalen Match mit GreenGo gefunden haben.",
+    "stats": {
+      "couples": "Glueckliche Paare",
+      "satisfaction": "Zufriedenheitsrate",
+      "rating": "App Store Bewertung",
+      "countries": "Laender"
+    }
+  },
+  "contact": {
+    "label": "Kontaktieren Sie uns",
+    "title": "Wir wuerden uns freuen",
+    "titleHighlight": " von Ihnen zu hoeren",
+    "subtitle": "Haben Sie eine Frage oder Feedback? Unser Team ist hier, um Ihnen auf Ihrer Reise zur Liebe zu helfen.",
+    "infoTitle": "Kontaktinformationen",
+    "infoSubtitle": "Kontaktieren Sie uns ueber einen dieser Kanaele und wir antworten innerhalb von 24 Stunden.",
+    "company": "Unternehmen",
+    "email": "E-Mail",
+    "address": "Adresse",
+    "hours": "Oeffnungszeiten",
+    "hoursValue": "Mo - Fr: 9:00 - 18:00 BRT",
+    "form": {
+      "name": "Vollstaendiger Name",
+      "namePlaceholder": "Max Mustermann",
+      "email": "E-Mail-Adresse",
+      "emailPlaceholder": "max@beispiel.com",
+      "subject": "Betreff",
+      "subjectPlaceholder": "Waehlen Sie einen Betreff",
+      "message": "Ihre Nachricht",
+      "messagePlaceholder": "Teilen Sie uns mit, wie wir Ihnen helfen koennen...",
+      "submit": "Nachricht senden",
+      "subjects": {
+        "general": "Allgemeine Anfrage",
+        "support": "Technischer Support",
+        "billing": "Abrechnungsfrage",
+        "partnership": "Partnerschaftsmoeglichkeit",
+        "press": "Presse und Medien",
+        "other": "Sonstiges"
+      }
+    },
+    "success": {
+      "title": "Nachricht erfolgreich gesendet!",
+      "description": "Vielen Dank fuer Ihre Kontaktaufnahme. Unser Team wird sich innerhalb von 24 Stunden bei Ihnen melden.",
+      "another": "Weitere Nachricht senden"
+    }
+  },
+  "cta": {
+    "badge": "Zeitlich begrenztes Angebot",
+    "title": "Seien Sie unter den",
+    "titleHighlight": " Ersten, die Liebe finden",
+    "subtitle": "Treten Sie unserem exklusiven Fruehzugangsprogramm bei und verschaffen Sie sich einen Vorsprung auf Ihrer Reise zu bedeutungsvollen internationalen Verbindungen.",
+    "benefits": {
+      "discount": "65% Rabatt auf die ersten 3 Monate",
+      "priority": "Prioritaetszugang vor dem oeffentlichen Start",
+      "badge": "Exklusives Gruendungsmitglied-Abzeichen",
+      "matching": "Fruehes Matching-Vorteil"
+    },
+    "placeholder": "Geben Sie Ihre E-Mail-Adresse ein",
+    "submit": "Fruehzugang erhalten",
+    "secure": "Ihre Daten sind sicher. Wir werden Ihnen niemals Spam senden.",
+    "success": {
+      "title": "Willkommen in der GreenGo-Familie!",
+      "description": "Ueberpruefen Sie Ihre E-Mail zur Bestaetigung. Sie sind jetzt auf der exklusiven Fruehzugangsliste mit 65% Rabatt!"
+    },
+    "card": {
+      "badge": "Gruendungsmitglied",
+      "discount": "65%",
+      "off": "RABATT",
+      "period": "Erste 3 Monate",
+      "expires": "Angebot endet beim Start"
+    }
+  },
+  "footer": {
+    "tagline": "Lernen, Unterhalten, Lieben. Sprachbarrieren ueberwinden und Herzen weltweit verbinden.",
+    "product": "Produkt",
+    "company": "Unternehmen",
+    "support": "Support",
+    "legal": "Rechtliches",
+    "links": {
+      "features": "Funktionen",
+      "pricing": "Preise",
+      "howItWorks": "So funktioniert's",
+      "successStories": "Erfolgsgeschichten",
+      "downloadApp": "App herunterladen",
+      "aboutUs": "Ueber uns",
+      "careers": "Karriere",
+      "press": "Presse",
+      "blog": "Blog",
+      "contact": "Kontakt",
+      "helpCenter": "Hilfezentrum",
+      "safetyTips": "Sicherheitstipps",
+      "communityGuidelines": "Community-Richtlinien",
+      "trustSafety": "Vertrauen und Sicherheit",
+      "cookiePolicy": "Cookie-Richtlinie",
+      "termsOfService": "Nutzungsbedingungen",
+      "privacyPolicy": "Datenschutzerklaerung",
+      "gdpr": "DSGVO",
+      "refundPolicy": "Rueckerstattungsrichtlinie",
+      "licenses": "Lizenzen"
+    },
+    "copyright": "GreenGo Chat. Alle Rechte vorbehalten.",
+    "madeWith": "Gemacht mit",
+    "forLovers": "fuer Liebende weltweit"
+  },
+  "language": {
+    "en": "Englisch",
+    "pt": "Portugiesisch",
+    "pt_BR": "Portugiesisch (Brasilien)",
+    "es": "Spanisch",
+    "fr": "Franzoesisch",
+    "de": "Deutsch",
+    "it": "Italienisch"
+  }
+}
