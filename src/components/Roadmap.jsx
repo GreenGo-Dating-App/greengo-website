@@ -14,21 +14,21 @@ const Roadmap = () => {
 
   const milestones = [
     {
-      date: '14 FEB',
+      date: '14 MAR',
       icon: Smartphone,
       titleKey: 'roadmap.preRegistration.title',
       descriptionKey: 'roadmap.preRegistration.description',
       status: 'upcoming'
     },
     {
-      date: '1 MAR',
+      date: '1 APR',
       icon: Star,
       titleKey: 'roadmap.vipAccess.title',
       descriptionKey: 'roadmap.vipAccess.description',
       status: 'upcoming'
     },
     {
-      date: '15 MAR',
+      date: '15 APR',
       icon: Rocket,
       titleKey: 'roadmap.officialLaunch.title',
       descriptionKey: 'roadmap.officialLaunch.description',
